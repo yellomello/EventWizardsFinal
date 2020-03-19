@@ -862,11 +862,11 @@ a:hover {
   
   
   .contact-form input, .contact-form textarea {
-    width: 100%;
+    width: 60%;
     border: 1px solid #eee;
-    padding: 5px 15px;
-    border-radius: 20px;
-    margin-bottom: 20px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
     text-transform: capitalize;
   }
   .contact-form input[type="submit"] {
@@ -1080,6 +1080,7 @@ a:hover {
     margin-top: 40px;
   }
   .portfolio-content h3 a i.bi {
+    font-style: italic;
     display: block;
     margin-bottom: 10px;
   }
@@ -1595,6 +1596,7 @@ a:hover {
   
   .single-portfolio {
     position: relative;
+    
   }
   
   .single-portfolio img {
@@ -1643,21 +1645,24 @@ a:hover {
   
   .portfolio-content h3 a {
     color: #fff;
+    font-style: italic;
     font-size: 20px;
-    text-transform: capitalize;
+    text-transform:lowercase;
     margin: 0px;
     display: block;
   }
   
   .portfolio-content h3 a span {
     display: block;
+    font-style: italic;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 40px;
     margin-top: 7px;
   }
   
   .portfolio-content h3 a i.fa {
     display: block;
+    font-style: italic;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -1730,11 +1735,11 @@ a:hover {
 
 
 .contact-form input, .contact-form textarea {
-  width: 100%;
+  width: 60%;
   border: 1px solid #eee;
-  padding: 5px 15px;
-  border-radius: 20px;
-  margin-bottom: 20px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
   text-transform: capitalize;
 }
 .contact-form input[type="submit"] {
@@ -2510,9 +2515,10 @@ a.navbar-brand {
 }
 
 .portfolio-content h3 a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	color: #fff;
-	font-size: 20px;
-	text-transform: capitalize;
+	font-size: 26px;
+	text-transform: none;
 	margin: 0px;
 	display: block;
 }
